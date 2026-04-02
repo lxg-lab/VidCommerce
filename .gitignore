@@ -4,5 +4,13 @@
 .env.*.local
 
 .idea
-data
 .claude
+
+# 忽略 output 目录
+data/output/
+
+# 忽略 input 目录里的文件，但保留目录结构
+data/input/*
+
+# 保留 input 目录的占位文件
+!data/input/.gitkeep

@@ -14,12 +14,10 @@ load_dotenv()
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "data" / "output"
-TEMP_DIR = BASE_DIR / "data" / "temp"
 
 # 确保目录存在
 DATA_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
-TEMP_DIR.mkdir(exist_ok=True)
 
 
 # ==================== API 配置 ====================

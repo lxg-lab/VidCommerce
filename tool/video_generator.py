@@ -10,7 +10,7 @@ from typing import Optional
 
 import httpx
 
-from config import RabbitAPI, OUTPUT_DIR, TEMP_DIR
+from config import RabbitAPI, OUTPUT_DIR
 
 
 @dataclass
